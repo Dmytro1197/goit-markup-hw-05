@@ -434,7 +434,7 @@
         <div class="container-footer-form">
           <p class="footer-form-title">Subscribe</p>
           <form class="footer-form">
-            <label aria-label="footer email input">
+            <label aria-label="footer email input" class="footer-form-label">
               <input
                 type="email"
                 name="footer-email"
@@ -505,26 +505,24 @@
               </svg>
             </div>
           </div>
-          <div class="modal-field">
-            <label for="user-text" class="modal-label">Comment</label>
-            <div class="modal-input-wrap">
-              <textarea
-                name="user-text"
-                id="user-text"
-                class="modal-comment"
-                placeholder="Text input"
-              ></textarea>
-            </div>
+          <div class="modal-field modal-field-comment">
+            <label for="user-comment" class="modal-label">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="modal-comment"
+              placeholder="Text input"
+            ></textarea>
           </div>
-          <div class="modal-field">
+          <div class="modal-field modal-field-checkbox">
             <input
               type="checkbox"
-              id="policy"
-              name="policy"
+              id="user-privacy"
+              name="user-privacy"
               value="true"
               class="modal-check visually-hidden"
             />
-            <label for="policy" class="modal-check-text">
+            <label for="user-privacy" class="modal-check-text">
               <span class="modal-check-span">
                 <svg class="modal-check-icons" width="10" height="8">
                   <use href="./images/icons.svg#icon-modal-icon-checkbox"></use>

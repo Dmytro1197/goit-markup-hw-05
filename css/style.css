@@ -574,11 +574,16 @@ img {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+  transition: color var(--hover-transition);
 }
 
 .footer-input:hover,
 .footer-input:focus {
   border-color: var(--iris);
+}
+
+.footer-input:hover::placeholder {
+  color: var(--iris);
 }
 
 .subscribe-btn {
@@ -891,6 +896,7 @@ img {
   font-size: 12px;
   line-height: 1.2;
   letter-spacing: 0.04em;
+  transition: color var(--hover-transition);
 }
 
 .modal-comment:hover,

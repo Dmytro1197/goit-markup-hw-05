@@ -779,7 +779,7 @@ img {
 }
 
 .modal-close-svg {
-  fill: var(--navy-blue-modal);
+  fill: var(--navy-blue);
 }
 
 .modal-title {
@@ -875,7 +875,7 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--navy-blue-modal);
+  color: var(--navy-blue);
   background-color: transparent;
   border-radius: 4px;
   border: 1px solid var(--navy-blue-modal, rgba(46, 47, 66, 0.4));
@@ -896,6 +896,10 @@ img {
 .modal-comment:hover,
 .modal-comment:focus {
   border-color: var(--iris);
+}
+
+.modal-comment:hover::placeholder {
+  color: var(--iris);
 }
 
 .modal-field-checkbox {
